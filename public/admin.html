@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin — Nexora Top Up</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="/"><span class="brand-mark">N</span>NEXORA <span class="muted">ADMIN</span></a><nav><a href="/">Lihat Website</a><a href="/#about">Tentang</a></nav><a class="button button-small" href="/">Kembali ke toko</a></header>
+<main>
+<section class="section"><span class="eyebrow">CONTROL CENTER</span><h2>Admin Dashboard</h2><p class="muted">Panel demo untuk antrean, transaksi, dan laporan. Tambahkan login dan pembatasan akses sebelum dipublikasikan.</p>
+<div class="game-grid">
+<div class="form-card"><span class="eyebrow">VOICE QUEUE</span><h3>Pemanggilan pelanggan</h3><label>Nomor antrean<input id="queueNumber" value="A001"></label><label>Loket<input id="counterNumber" type="number" min="1" value="1"></label><button class="button full" id="callButton">Panggil dengan suara</button><small class="muted">Menggunakan Text-to-Speech browser dalam bahasa Indonesia.</small></div>
+<div class="form-card"><span class="eyebrow">REPORT CENTER</span><h3>Download laporan</h3><p class="muted">Ekspor data transaksi demo ke file CSV.</p><button class="button button-green full" id="csvButton">Download laporan CSV</button></div>
+<div class="form-card"><span class="eyebrow">CUSTOMER SERVICE</span><h3>WhatsApp CS</h3><p class="muted">Nomor WhatsApp bisnis belum dikonfigurasi.</p><a class="button full" href="/">Atur nomor di app.js</a></div>
+</div>
+</section>
+<section class="section"><div class="section-heading"><div><span class="eyebrow">ORDER MANAGEMENT</span><h2>Transaksi terbaru</h2></div><button class="button button-small" id="refreshOrders">Muat ulang</button></div><div id="ordersTable" class="form-card"><p class="muted">Memuat data...</p></div></section>
+</main>
+<footer><span>Nexora Top Up Admin • Demo</span><span>Jangan publikasikan panel tanpa autentikasi.</span></footer>
+<script src="admin.js"></script></body></html>
