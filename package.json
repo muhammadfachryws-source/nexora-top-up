@@ -1,0 +1,8 @@
+{
+  "name": "nexora-top-up",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter website Nexora Top Up",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {"express": "^4.21.2"}
+}
